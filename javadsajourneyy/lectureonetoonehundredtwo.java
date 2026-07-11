@@ -1297,6 +1297,7 @@ for (int i = 0; i < arr2.length; i++) {
     arr2[i]=sc.nextInt();
 }
 diff(arr1,arr2);
+sc.close();
     }
     public static void diff(int []arr1, int []arr2){
     int nonZero=-1;
@@ -1333,4 +1334,5 @@ else
         System.out.println(arr3[i]);
     }
     }
+
 }
